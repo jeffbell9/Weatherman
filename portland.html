@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Portland</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="city">
+		<h1>Portland</h1>
+	</div>
+	<div id="info">
+		<div class="temp">
+			<h2 id="temp"></h2>
+			<span id="degrees">&deg</span>
+		</div>
+		<h3 id="conditions"></h3>
+	</div>
+	<div id="back">
+		<!-- on click redirect back to home page -->
+		<button id="backhome" onclick="goBack()">back home</button>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+	<script src="js/getweather.js"></script>
+	<script src="js/cityscript.js"></script>	
+</body>
+</html>

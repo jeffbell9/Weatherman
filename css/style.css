@@ -1,0 +1,68 @@
+/* Main styles*/
+
+body {
+	color: white;
+	background-color: lightskyblue;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+
+/* Index styles*/
+
+#date {
+	text-align: center;
+	color: grey;
+}
+
+form {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+/* City styles*/
+
+#temp {
+	padding: 0;
+	width: 125px;
+	margin: auto;
+	text-align: center;
+	font-size: 5em;
+	margin-bottom: 50px;
+	margin-top: 0;
+	color: darkblue;
+}
+
+#conditions {
+	text-align: center;
+	color: grey;
+}
+
+#back {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#degrees {
+	font-size: 40px;
+	position: absolute;
+	right: 0;
+	top: 10%;
+	color: darkblue;
+}
+
+#backhome {
+	background-color: brown;
+	color: white;
+}
+
+.temp {
+	text-align: center;
+	position: relative;
+	width: 125px;
+	margin: auto;
+}
