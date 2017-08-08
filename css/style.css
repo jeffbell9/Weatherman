@@ -22,6 +22,7 @@ h1 {
 form {
 	text-align: center;
 	margin-top: 75px;
+	color: black;
 }
 
 
@@ -66,10 +67,4 @@ form {
 	position: relative;
 	width: 125px;
 	margin: auto;
-}
-
-#warning {
-	text-align: center;
-	margin-top: 100px;
-	color: green;
 }
