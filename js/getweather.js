@@ -1,7 +1,7 @@
 var latitude;
 var longitude;
 
-var target = location.pathname.split('/')[6];
+var target = location.pathname.split('/').pop();
 
 if (target === "seattle.html") {
 	latitude = 47.608013;
