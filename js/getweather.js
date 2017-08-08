@@ -1,10 +1,12 @@
 var latitude;
 var longitude;
 
-if (location.pathname === "/Users/jeffbell/Desktop/Projects/Weatherman/seattle.html") {
+var target = location.pathname.split('/')[6];
+
+if (target === "seattle.html") {
 	latitude = 47.608013;
 	longitude = -122.335167;
-} else if (location.pathname === "/Users/jeffbell/Desktop/Projects/Weatherman/portland.html") {
+} else if (target === "portland.html") {
 	latitude = 45.512794;
 	longitude = -122.679565;
 }
