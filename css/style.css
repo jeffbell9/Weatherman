@@ -1,18 +1,19 @@
-/* Main styles*/
-
 body {
 	color: white;
 	background-color: lightskyblue;
 }
 
-h1 {
+#title {
 	text-align: center;
 	font-size: 50px;
 	margin-top: 50px;
 }
 
-
-/* Index styles*/
+#city {
+	text-align: center;
+	font-size: 45px;
+	margin-top: 50px;
+}
 
 #date {
 	text-align: center;
@@ -21,12 +22,10 @@ h1 {
 
 form {
 	text-align: center;
-	margin-top: 75px;
+	margin-top: 40px;
+	margin-bottom: 60px;
 	color: black;
 }
-
-
-/* City styles*/
 
 #temp {
 	padding: 0;
@@ -44,22 +43,12 @@ form {
 	color: grey;
 }
 
-#back {
-	text-align: center;
-	margin-top: 100px;
-}
-
 #degrees {
 	font-size: 40px;
 	position: absolute;
 	right: 0;
-	top: 10%;
+	top: 1%;
 	color: darkblue;
-}
-
-#backhome {
-	background-color: brown;
-	color: white;
 }
 
 .temp {
